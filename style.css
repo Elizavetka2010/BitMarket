@@ -5,9 +5,10 @@ body {
 
 header {
     justify-content: space-between;
-    padding: ;
+    padding: 10px;
     margin-bottom: 20px;
     display: flex;
+    align-items: center; 
 }
 
 .button {
@@ -31,6 +32,7 @@ nav {
     font-size: 24px;
     color: white;
     text-decoration: none;
+    display: block;
 }
 
 h1 {
@@ -48,8 +50,9 @@ p {
 .info {
     flex-wrap: wrap;
     width: 1100px;
-    margin: 0px;
+    margin: 0px auto 0px auto;
     display: flex;
+    max-width: 1100px;
 }
 
 article {
